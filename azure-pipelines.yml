@@ -22,4 +22,4 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    customCommand: 'run build:prod'
+    customCommand: 'npm run build:prod'
